@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/Pi_PAJ7620.h
+wiringPi.h
+-
+wiringPiI2C.h
+-
+unistd.h
+-
+
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/paj7620_test.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+Pi_PAJ7620.h
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/Pi_PAJ7620.h
+unistd.h
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/unistd.h
+string.h
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/string.h
+
+/usr/local/include/wiringPi.h
+
+/usr/local/include/wiringPiI2C.h
+

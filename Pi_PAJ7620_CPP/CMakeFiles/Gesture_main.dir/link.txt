@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Gesture_main.dir/paj7620_test.cpp.o CMakeFiles/Gesture_main.dir/Pi_PAJ7620.cpp.o  -o Gesture_main -Wl,-rpath,/usr/local/lib /usr/local/lib/libwiringPi.so 

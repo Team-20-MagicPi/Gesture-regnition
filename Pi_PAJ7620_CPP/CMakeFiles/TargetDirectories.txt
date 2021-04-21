@@ -1,0 +1,3 @@
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/CMakeFiles/rebuild_cache.dir
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/CMakeFiles/Gesture_main.dir
+/home/pi/Gesture-Detection-main/Pi_PAJ7620_CPP/CMakeFiles/edit_cache.dir
