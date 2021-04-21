@@ -86,8 +86,7 @@ make
 
 ### Prepared Gestures
 
-You can modify, remove or create these gestures commands in `config.js`
-
+You can modify, remove or create these gestures 
 - **LEFT** : previous one
 - **RIGHT** : next one
 - **UP** : increase volume
