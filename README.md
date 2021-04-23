@@ -2,7 +2,7 @@
 
 It detects 3D gesture with Gesture Sensor(PAJ7620u2)，and controls  a music player
 
-### REQUIREMENT
+## REQUIREMENT
 
 - 1 x Gesture Sensor (or PAJ7620u2 compatible)
 - 1 x 4pin Female jumper cable
@@ -51,25 +51,31 @@ pi@raspberrypi:~$ sudo i2cdetect -y  1
 70: -- -- -- 73 -- -- -- -- 
 ```
 
+### About the chip
+* The chip's registor should be set properly everytime it reboots.
+* You can find the default settings of the registor here in the chip's datasheet:
+     https://www.alldatasheet.com/view.jsp?Searchword=Paj7620u2%20datasheet&gclid=Cj0KCQjwvYSEBhDjARIsAJMn0ljzSpP8bfbRnMBM7X_stNOUmwhnCTGYhqRbmgagZv9Nr4d21ru-oBYaAqqYEALw_wcB
 
 
 ## Installation of Module
 
-#### wiringPi
+### wiringPi
 
 **WiringPi** is a **PIN** based GPIO access library written in C. The installation guide can be found below:
 
 http://wiringpi.com/download-and-install/
 
-#### build
+### build
 
 ```
- g++ paj7620_test.cpp Pi_PAJ7620.cpp -lwiringPi  -o a.out
+python Gesture_Initialization.py
+g++ paj7620_test.cpp Pi_PAJ7620.cpp -lwiringPi  -o a.out
 ```
 
 or using cmake:
 
 ```
+python Gesture_Initialization.py
 mkdir build
 cd build
 cmake ..
